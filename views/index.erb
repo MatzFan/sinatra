@@ -1,0 +1,11 @@
+    <% if @visitor %>
+      Hello, <%= @visitor %>
+    <% else %>
+      <form action="/hello"> <!-- action specifies the address of the page the form data is sent to-->
+        My name is <%= @name %>.
+        What's your name?
+        <input type="text" name="name"> <!-- type text is a text field -->
+        <input type="submit"> <!-- type submit is a button -->
+      </form>
+    <% end %>
+    <img src='/images/kitten.png'>

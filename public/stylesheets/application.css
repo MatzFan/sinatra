@@ -1,0 +1,4 @@
+.kitten { /* .kitten is a class name - this style is applied to all elements
+  tagged as class 'kitten' */
+  border: 3px dashed red;
+}

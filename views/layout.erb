@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>My Kitten Page</title> <!-- adds class attribute 'kitten' which is used in CSS (.kitten) -->
+    <link href="/stylesheets/application.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="kitten">
+      <%= yield %> <!-- Sinatra checks for a layout.erb file. If so here it yields to the block defined by the route being requested.. -->
+    </div>
+  </body>
+</html>
